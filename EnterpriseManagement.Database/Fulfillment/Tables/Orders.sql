@@ -1,4 +1,4 @@
-﻿CREATE TABLE [order].[Orders]
+﻿CREATE TABLE [fulfillment].[Orders]
 (
 	[Id] INT NOT NULL  CONSTRAINT PK_Orders PRIMARY KEY IDENTITY(1,1),
 	[OrderId] INT NULL,
@@ -7,7 +7,7 @@
 	[OrderType] INT NULL,
     [CreatedDateTime] DATETIMEOFFSET(7) NULL CONSTRAINT DF_Orders_CreatedDateTime DEFAULT GETUTCDATE(), 
     [UpdatedDateTime] DATETIMEOFFSET(7) NULL,
-    CONSTRAINT [FK_Order_Orders_Orders] FOREIGN KEY ([OrderId]) REFERENCES [order].[Orders] ([Id]),
+    CONSTRAINT [FK_Order_Orders_Orders] FOREIGN KEY ([OrderId]) REFERENCES [fulfillment].[Orders] ([Id]),
 )
 
 GO

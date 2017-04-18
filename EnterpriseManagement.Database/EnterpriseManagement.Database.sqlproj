@@ -58,14 +58,14 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Inventory" />
-    <Folder Include="Order" />
+    <Folder Include="Fulfillment" />
     <Folder Include="Resource" />
     <Folder Include="Inventory\Tables" />
     <Folder Include="Inventory\Stored Procedures" />
     <Folder Include="Resource\Stored Procedures" />
     <Folder Include="Resource\Tables" />
-    <Folder Include="Order\Tables" />
-    <Folder Include="Order\Stored Procedures" />
+    <Folder Include="Fulfillment\Tables" />
+    <Folder Include="Fulfillment\Stored Procedures" />
     <Folder Include="Time" />
     <Folder Include="Time\Tables" />
     <Folder Include="Time\Stored Procedures" />
@@ -78,7 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Inventory\inventory.sql" />
-    <Build Include="Order\order.sql" />
+    <Build Include="Fulfillment\fulfillment.sql" />
     <Build Include="Resource\resource.sql" />
     <Build Include="Time\time.sql" />
     <Build Include="Financial\financial.sql" />
@@ -93,6 +93,6 @@
     <Build Include="Time\Tables\Functions.sql" />
     <Build Include="Time\Tables\TaskOrders.sql" />
     <Build Include="Time\Tables\Tasks.sql" />
-    <Build Include="Order\Tables\Orders.sql" />
+    <Build Include="Fulfillment\Tables\Orders.sql" />
   </ItemGroup>
 </Project>
