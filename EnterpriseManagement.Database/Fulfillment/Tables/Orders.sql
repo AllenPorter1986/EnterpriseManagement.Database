@@ -12,4 +12,4 @@
 
 GO
 
-CREATE INDEX [IX_Orders_Identifier] ON [dbo].[Orders] ([Identifier])
+CREATE INDEX [IX_Fulfillment_Orders_Identifier] ON [fulfillment].[Orders] ([Identifier])
