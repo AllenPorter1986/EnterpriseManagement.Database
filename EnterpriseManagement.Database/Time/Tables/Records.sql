@@ -1,0 +1,7 @@
+﻿CREATE TABLE [time].[Records]
+(
+	[Id] INT NOT NULL  CONSTRAINT PK_Records PRIMARY KEY IDENTITY(1,1),
+    [StartTime] DATETIMEOFFSET(7) NULL, 
+	[CreatedDateTime] DATETIMEOFFSET(7) NULL CONSTRAINT DF_Records_CreatedDateTime DEFAULT GETUTCDATE(), 
+    [UpdatedDateTime] DATETIMEOFFSET(7) NULL,
+)
