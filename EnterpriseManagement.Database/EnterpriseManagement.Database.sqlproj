@@ -79,20 +79,35 @@
   <ItemGroup>
     <Build Include="Inventory\inventory.sql" />
     <Build Include="Fulfillment\fulfillment.sql" />
-    <Build Include="Resource\resource.sql" />
     <Build Include="Time\time.sql" />
-    <Build Include="Financial\financial.sql" />
     <Build Include="dbo\Tables\Clients.sql" />
     <Build Include="dbo\Tables\Employees.sql" />
-    <Build Include="Time\Tables\Records.sql" />
-    <Build Include="Time\Tables\TimeSheetRecords.sql" />
-    <Build Include="Time\Tables\TimeSheets.sql" />
     <Build Include="Time\Tables\Orders.sql" />
-    <Build Include="Time\Tables\Clients.sql" />
     <Build Include="Time\Tables\Employees.sql" />
     <Build Include="Time\Tables\Functions.sql" />
-    <Build Include="Time\Tables\TaskOrders.sql" />
-    <Build Include="Time\Tables\Tasks.sql" />
     <Build Include="Fulfillment\Tables\Orders.sql" />
+    <Build Include="Time\Tables\TimeSheet.sql" />
+    <Build Include="Time\Tables\TaskDetail.sql" />
+    <Build Include="Time\Tables\Task.sql" />
+    <Build Include="Time\Tables\RecordTaskDetail.sql" />
+    <Build Include="Time\Tables\Record.sql" />
+    <Build Include="Time\Tables\Function.sql" />
+    <Build Include="Inventory\Tables\Zone.sql" />
+    <Build Include="Inventory\Tables\SiteVector.sql" />
+    <Build Include="Inventory\Tables\Site.sql" />
+    <Build Include="Inventory\Tables\ObstacleVector.sql" />
+    <Build Include="Inventory\Tables\Obstacle.sql" />
+    <Build Include="Inventory\Tables\LocationVector.sql" />
+    <Build Include="Inventory\Tables\Location.sql" />
+    <Build Include="Inventory\Tables\ItemLocationOrderItem.sql" />
+    <Build Include="Inventory\Tables\ItemLocation.sql" />
+    <Build Include="Inventory\Tables\Item.sql" />
+    <Build Include="Inventory\Tables\BuildingVector.sql" />
+    <Build Include="Inventory\Tables\Building.sql" />
+    <Build Include="Inventory\Tables\AisleVector.sql" />
+    <Build Include="Inventory\Tables\Aisle.sql" />
+    <Build Include="Fulfillment\Tables\OrderItem.sql" />
+    <Build Include="Fulfillment\Tables\OrderDetail.sql" />
+    <Build Include="Fulfillment\Tables\Order.sql" />
   </ItemGroup>
 </Project>
